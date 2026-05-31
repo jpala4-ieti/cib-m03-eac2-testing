@@ -19,7 +19,7 @@ jobs:
       matrix:
         python-version: ["3.11"]
 
-steps:
+  steps:
     # Upgraded to v6
     - uses: actions/checkout@v6
     
